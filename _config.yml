@@ -1,0 +1,193 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Muhammad Ehssan
+title: AI Full Stack Engineer
+email: ehsanghazanfar2@gmail.com
+website: https://github.com/Muhammad-Ehssan
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: Muhammad-Ehssan
+linkedin_username: muhammad-ehssan
+# twitter_username:
+# instagram_username:
+# youtube_username:
+
+# Additional icon links
+additional_links:
+- title: Location
+  icon: fas fa-map-marker-alt
+  url: https://www.google.com/maps/place/Lahore,+Pakistan
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, I'm Muhammad Ehssan, an AI Full Stack Engineer based in Lahore, Pakistan. I have 4+ years building and scaling production backend services, REST APIs, and React applications.
+
+  I have experience shipping LLM-powered features and RAG-style retrieval pipelines, including an AI resume-ranking system and AI analytics for a platform serving 30,000+ users.
+
+  I am most skilled in: <mark>TypeScript/Node.js</mark>, <mark>React/Next.js</mark>, <mark>PostgreSQL</mark>, <mark>LLM Integration</mark>, and <mark>Microservices</mark>.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: i2cinc
+        link: i2cinc.com
+        sub_title: Senior Software Engineer
+        caption: January 2026 – Present
+        quote: >
+          Lahore, Pakistan
+        description: |
+          - Architected a distributed Scheduler Automation Framework using Quartz Scheduler, standardizing batch and autonomous job orchestration across 12+ modules and cutting production scheduling incidents by **70%**.
+          - Drove the technical roadmap for core integrations and added observability to pipelines; mentored 3 engineers and reduced average feature delivery time by **25%**.
+
+      - layout: left
+        title: i2cinc
+        link: i2cinc.com
+        sub_title: Software Engineer
+        caption: January 2023 – December 2025
+        quote: >
+          Lahore, Pakistan
+        description: |
+          - Led migration of 15+ RESTful services from a legacy monolith to Node.js/Spring Boot microservices, reducing average API response latency by **35%** and deployment downtime by **50%**.
+          - Engineered an automated, event-driven collection and promotions engine integrated with core APIs and PostgreSQL/Informix, processing **100,000+** account updates monthly with zero manual intervention.
+          - Automated an end-to-end processing pipeline handling **20,000+** items annually, cutting turnaround from 3 days to under 6 hours through queue-based async workers.
+          - Built REST and webhook integrations with third-party platforms using OAuth, with logging and monitoring for production debugging on Linux servers.
+
+      - layout: left
+        title: i2cinc
+        link: i2cinc.com
+        sub_title: Associate Software Engineer
+        caption: January 2022 – December 2022
+        quote: >
+          Lahore, Pakistan
+        description: |
+          - Developed and maintained RESTful APIs for lifecycle management and core operations, supporting **500,000+** active accounts with a **99.9%** uptime SLA.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Resume Ranker
+        quote: >
+          Python, Flask, Mixtral LLM, React.js
+        description: |
+          Built an AI candidate-scoring pipeline that grades and ranks resumes against a job description using an LLM, returning structured scores with justification citations. Implemented document parsing, chunking, and prompt orchestration; reduced recruiter shortlisting effort by **~80%**.
+
+      - layout: top-middle
+        title: Clubbie — Sports Club Management
+        quote: >
+          Next.js, React Native, Node.js, real-time backend
+        description: |
+          Delivered a platform serving **8,000+ teams** and **30,000+ users** (4.5-star App Store rating) with live scoring, member payments, AI analytics, and automated matchday graphics generation.
+
+      - layout: top-middle
+        title: SnookerOrakel
+        quote: >
+          Python, Flask, React.js, PostgreSQL, AWS
+        description: |
+          Live prediction platform with an outcome-oracle engine delivering real-time win-probability scores and ranking analytics from historical match data.
+
+      - layout: top-middle
+        title: DartsOrakel
+        quote: >
+          React.js, Spring Boot, PostgreSQL, AWS S3
+        description: |
+          Analytics platform with tournament tracking, head-to-head predictions, form rankings, 11-language support, and a mobile scorer app monetized via subscription.
+
+      - layout: top-middle
+        title: Computer Vision — Stable Diffusion Fine-tuning
+        quote: >
+          Python, PyTorch, Stable Diffusion v1.5, Dreambooth, LoRA
+        description: |
+          Fine-tuned Stable Diffusion v1.5 using Dreambooth and LoRA methods to enable the model to learn and generate images of specific characters with high fidelity.
+
+      - layout: top-middle
+        title: Computer Vision — House Design Segmentation
+        quote: >
+          Python, PyTorch, Segment Anything Model, YOLOv8, OpenCV
+        description: |
+          Integrated the Segment Anything Model (SAM) with a YOLOv8 detection model to precisely segment windows, doors, and garages from house design images for targeted editing workflows.
+
+      - layout: top-middle
+        title: Computer Vision — Basketball Shot Classification
+        quote: >
+          Python, PyTorch, YOLOv8, YOLOv7, Segformer, OpenCV
+        description: |
+          Built a heuristic algorithm to classify shot types based on potential score from basketball match videos, leveraging YOLOv8 for ball and player detection, YOLOv7 for body landmark detection, and Segformer to segment the playing area.
+
+      - layout: top-middle
+        title: NLP — Audio-to-Audio Translation App
+        quote: >
+          Python, Azure AI, ElevenLabs
+        description: |
+          Used pre-trained ML models — AssemblyAI speech-to-text, Azure AI translation, and ElevenLabs text-to-speech — to build a fast, end-to-end audio translation pipeline supporting multiple languages.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: FAST NUCES
+        caption: B.S. Computer Science
+        sub_title: GPA 3.25 / 4.0
+        quote: >
+          Lahore, Pakistan
+        description: |
+          Graduated with Dean's List honours in three semesters. Built a strong foundation in algorithms, systems programming, and software engineering principles.
+
+  - title: Skills
+    layout: text
+    content: |
+      **AI & LLM:** Production LLM integration (Claude, OpenAI, Mixtral), RAG, embeddings, vector search, semantic retrieval, prompt engineering, multi-agent pipelines, LLM cost/latency optimization
+
+      **ML & Computer Vision:** PyTorch, TensorFlow, Scikit-Learn, OpenCV, Stable Diffusion (Dreambooth/LoRA), YOLOv7/v8, Segformer, SAM, NumPy, Pandas
+
+      **Languages:** TypeScript, JavaScript, Python, Java, SQL
+
+      **Frontend:** React.js, Next.js, React Native
+
+      **Backend:** Node.js, Spring Boot, Flask, FastAPI, REST APIs, OAuth, Webhooks, Microservices
+
+      **Databases:** PostgreSQL, MongoDB, Informix DB
+
+      **Cloud & Infra:** AWS (EC2, Amplify, S3, Route 53), Docker, Linux, Apache Tomcat
+
+      **Tools:** Git, GitHub, BitBucket, SVN, Quartz Scheduler, Claude Code, Cursor
+
+  - title: Achievements
+    layout: text
+    content: |
+      - **Emerging Software Engineer of the Year 2025** — i2cinc | Company-wide award for outstanding technical contributions and growth.
+      - **Star of the Month ×4** — i2cinc | Recognised four times for exceptional performance and delivery.
+      - **Dean's List ×3** — FAST NUCES | Honoured three semesters for academic excellence.
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
