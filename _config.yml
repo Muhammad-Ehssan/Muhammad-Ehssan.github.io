@@ -38,11 +38,18 @@ additional_links:
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, I'm Muhammad Ehssan, an AI Full Stack Engineer based in Lahore, Pakistan. I have 4+ years building and scaling production backend services, REST APIs, and React applications.
+  Hi, I'm Muhammad Ehssan — an AI Full Stack Engineer based in Lahore, Pakistan with 4+ years building and scaling production backend services, REST APIs, and React applications.
 
-  I have experience shipping LLM-powered features and RAG-style retrieval pipelines, including an AI resume-ranking system and AI analytics for a platform serving 30,000+ users.
+  **What I bring:**
+  - **Backend & Systems** — Migrated 15+ services to microservices, cut API latency by 35%, and automated pipelines processing 100,000+ records monthly with zero manual intervention.
+  - **AI & LLM** — Shipped LLM-powered features and RAG-style retrieval pipelines in production, including an AI resume-ranking system that cut recruiter effort by 80%.
+  - **Full-Stack Delivery** — Delivered platforms serving 30,000+ users end-to-end, from database to mobile app, with real-time features and AI analytics.
 
   I am most skilled in: <mark>TypeScript/Node.js</mark>, <mark>React/Next.js</mark>, <mark>PostgreSQL</mark>, <mark>LLM Integration</mark>, and <mark>Microservices</mark>.
+
+  Currently exploring <mark>agentic AI systems</mark> and <mark>multi-step LLM pipelines</mark>.
+
+  Open to senior/lead full-stack or AI engineering roles — reach me at **ehsanghazanfar2@gmail.com**.
 
 content:
   - title: Experience
@@ -90,56 +97,56 @@ content:
         quote: >
           Python, Flask, Mixtral LLM, React.js
         description: |
-          Built an AI candidate-scoring pipeline that grades and ranks resumes against a job description using an LLM, returning structured scores with justification citations. Implemented document parsing, chunking, and prompt orchestration; reduced recruiter shortlisting effort by **~80%**.
+          Built an <mark>AI candidate-scoring pipeline</mark> that grades and ranks resumes against a job description using an <mark>LLM</mark>, returning structured scores with justification citations. Implemented document parsing, chunking, and <mark>prompt orchestration</mark>; reduced recruiter shortlisting effort by **~80%**.
 
       - layout: top-middle
         title: Clubbie — Sports Club Management
         quote: >
           Next.js, React Native, Node.js, real-time backend
         description: |
-          Delivered a platform serving **8,000+ teams** and **30,000+ users** (4.5-star App Store rating) with live scoring, member payments, AI analytics, and automated matchday graphics generation.
+          Delivered a platform serving **8,000+ teams** and **30,000+ users** (4.5-star App Store rating) with <mark>live scoring</mark>, member payments, <mark>AI analytics</mark>, and automated matchday graphics generation.
 
       - layout: top-middle
         title: SnookerOrakel
         quote: >
           Python, Flask, React.js, PostgreSQL, AWS
         description: |
-          Live prediction platform with an outcome-oracle engine delivering real-time win-probability scores and ranking analytics from historical match data.
+          Live prediction platform with an <mark>outcome-oracle engine</mark> delivering real-time win-probability scores and ranking analytics from historical match data.
 
       - layout: top-middle
         title: DartsOrakel
         quote: >
           React.js, Spring Boot, PostgreSQL, AWS S3
         description: |
-          Analytics platform with tournament tracking, head-to-head predictions, form rankings, 11-language support, and a mobile scorer app monetized via subscription.
+          Analytics platform with tournament tracking, head-to-head predictions, form rankings, <mark>11-language support</mark>, and a mobile scorer app monetized via subscription.
 
       - layout: top-middle
         title: Computer Vision — Stable Diffusion Fine-tuning
         quote: >
           Python, PyTorch, Stable Diffusion v1.5, Dreambooth, LoRA
         description: |
-          Fine-tuned Stable Diffusion v1.5 using Dreambooth and LoRA methods to enable the model to learn and generate images of specific characters with high fidelity.
+          Fine-tuned <mark>Stable Diffusion v1.5</mark> using <mark>Dreambooth</mark> and <mark>LoRA</mark> methods to enable the model to learn and generate images of specific characters with high fidelity.
 
       - layout: top-middle
         title: Computer Vision — House Design Segmentation
         quote: >
           Python, PyTorch, Segment Anything Model, YOLOv8, OpenCV
         description: |
-          Integrated the Segment Anything Model (SAM) with a YOLOv8 detection model to precisely segment windows, doors, and garages from house design images for targeted editing workflows.
+          Integrated <mark>Segment Anything Model (SAM)</mark> with a <mark>YOLOv8</mark> detection model to precisely segment windows, doors, and garages from house design images for targeted editing workflows.
 
       - layout: top-middle
         title: Computer Vision — Basketball Shot Classification
         quote: >
           Python, PyTorch, YOLOv8, YOLOv7, Segformer, OpenCV
         description: |
-          Built a heuristic algorithm to classify shot types based on potential score from basketball match videos, leveraging YOLOv8 for ball and player detection, YOLOv7 for body landmark detection, and Segformer to segment the playing area.
+          Built a heuristic algorithm to classify shot types from basketball match videos, leveraging <mark>YOLOv8</mark> for ball and player detection, <mark>YOLOv7</mark> for body landmark detection, and <mark>Segformer</mark> to segment the playing area.
 
       - layout: top-middle
         title: NLP — Audio-to-Audio Translation App
         quote: >
           Python, Azure AI, ElevenLabs
         description: |
-          Used pre-trained ML models — AssemblyAI speech-to-text, Azure AI translation, and ElevenLabs text-to-speech — to build a fast, end-to-end audio translation pipeline supporting multiple languages.
+          Built a fast, end-to-end <mark>audio translation pipeline</mark> using AssemblyAI speech-to-text, <mark>Azure AI</mark> translation, and <mark>ElevenLabs</mark> text-to-speech — supporting multiple languages with pre-trained ML models.
 
   - title: Education
     layout: list
@@ -152,6 +159,13 @@ content:
           Lahore, Pakistan
         description: |
           Graduated with Dean's List honours in three semesters. Built a strong foundation in algorithms, systems programming, and software engineering principles.
+
+  - title: Achievements
+    layout: text
+    content: |
+      - **Emerging Software Engineer of the Year 2025** — i2cinc | Company-wide award for outstanding technical contributions and growth.
+      - **Star of the Month ×4** — i2cinc | Recognised four times for exceptional performance and delivery.
+      - **Dean's List ×3** — FAST NUCES | Honoured three semesters for academic excellence.
 
   - title: Skills
     layout: text
@@ -173,13 +187,6 @@ content:
       **Version Control:** Git, GitHub, BitBucket, SVN
 
       **Tools:** Quartz Scheduler, Claude Code, Cursor
-
-  - title: Achievements
-    layout: text
-    content: |
-      - **Emerging Software Engineer of the Year 2025** — i2cinc | Company-wide award for outstanding technical contributions and growth.
-      - **Star of the Month ×4** — i2cinc | Recognised four times for exceptional performance and delivery.
-      - **Dean's List ×3** — FAST NUCES | Honoured three semesters for academic excellence.
 
 # Footer
 footer_show_references: true
