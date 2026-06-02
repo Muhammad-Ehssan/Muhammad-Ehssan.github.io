@@ -164,13 +164,15 @@ content:
 
       **Frontend:** React.js, Next.js, React Native
 
-      **Backend:** Node.js, Spring Boot, Flask, FastAPI, REST APIs, OAuth, Webhooks, Microservices
+      **Backend:** Node.js, Spring Boot (Java), Flask, FastAPI, REST APIs, OAuth, Webhooks, Microservices
 
       **Databases:** PostgreSQL, MongoDB, Informix DB
 
       **Cloud & Infra:** AWS (EC2, Amplify, S3, Route 53), Docker, Linux, Apache Tomcat
 
-      **Tools:** Git, GitHub, BitBucket, SVN, Quartz Scheduler, Claude Code, Cursor
+      **Version Control:** Git, GitHub, BitBucket, SVN
+
+      **Tools:** Quartz Scheduler, Claude Code, Cursor
 
   - title: Achievements
     layout: text
